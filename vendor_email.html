@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Revelium™ Studio - Welcome Email</title>
+  <meta name="viewport" content="width=480, initial-scale=1">
+</head>
+<body style="background:#EFECEC;font-family:'Inter',Arial,sans-serif;margin:0;padding:0;min-height:100vh;display:flex;align-items:center;justify-content:center;">
+  <div style="background:#fff;border-radius:10px;max-width:480px;width:100%;margin:40px auto;box-shadow:0 2px 16px rgba(0,0,0,0.04);padding:40px 32px 32px 32px;box-sizing:border-box;">
+    <div style="display:flex;justify-content:center;margin-bottom:32px;">
+      <img src="/logo.svg" alt="Revelium Logo" style="width:48px;height:48px;">
+    </div>
+    <div style="color:#000;font-family:'Inter',Arial,sans-serif;font-weight:500;font-size:14.2px;line-height:1.21em;letter-spacing:-2%;margin-bottom:24px;white-space:pre-line;">
+      Hey <span id="receiver_firstname" style="font-weight:600;">&lt;receiver_firstname&gt;</span>,<br><br>
+      We’re glad to have you with us — your account now unlocks everything you need to collaborate with our team and explore the full Revelium toolkit.<br><br>
+      This email will guide you through your first important step: setting up your Revelium Studio account. At Revelium, we use Google Workspace to power our daily operations, from Mail and Calendar to internal tools and team platforms. This login gives you full access to the Revelium ecosystem.<br><br>
+      <b>1. Login</b><br>
+      Go to <a href="https://revelium.studio/login" target="_blank" style="color:#000;text-decoration:underline;">https://revelium.studio/login</a> and choose one of the following methods:<br><br>
+      <b>Option 1: Manual Login</b><br>
+      Email: <span id="yourname" style="font-weight:600;">&lt;yourname@revelium.studio&gt;</span><br>
+      Password: <span id="password" style="font-weight:600;">&lt;password&gt;</span><br>
+      TOTP Code: <span id="totp_secret_key" style="font-weight:600;">&lt;TOTP_secret_key&gt;</span><br><br>
+      <b>Option 2: Google SSO</b><br>
+      Click “Sign in with Google” to simplify your login using your Google account.<br><br>
+      <b>2. Security Setup (2FA)</b><br>
+      To keep your access secure, we require 2-factor authentication.<br>
+      Follow these steps to configure Google Authenticator:<br>
+      <span style="display:block;margin-left:16px;">
+        - Download Google Authenticator from the App Store or Google Play<br>
+        - Tap the “+” at the bottom-right<br>
+        - Select “Enter a setup key”<br>
+        - For Account Name, use: <span id="account_name" style="font-weight:600;">&lt;yourname@revelium.studio&gt;</span><br>
+        - For Key, paste the TOTP secret above<br>
+        - Leave the key type as Time-based and tap Add
+      </span>
+      <br>
+      Your 6-digit code will now appear in the app — you’ll use this every time you manually log in.<br>
+      <i>Note: If you don’t complete this step, access to your account will be locked next time you try to log in.</i><br><br>
+      <b>3. Set Up Your Email</b><br>
+      You can now configure your Revelium email in your preferred client (Gmail, Apple Mail, Outlook, etc.). Just add your credentials as a standard Google account, and you’re ready to go.<br><br>
+      Welcome aboard once again — we look forward to working with you.<br><br>
+      Revelium™ Studio.
+    </div>
+  </div>
+</body>
+</html>
